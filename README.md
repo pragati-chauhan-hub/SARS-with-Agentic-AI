@@ -126,7 +126,7 @@ The backend runs on `http://localhost:8000`
 2. Get your Account SID and Auth Token from Console
 3. Join WhatsApp Sandbox: [https://console.twilio.com/us1/develop/sms/try-it-out/whatsapp-learn](https://console.twilio.com/us1/develop/sms/try-it-out/whatsapp-learn)
 4. Send "join [your-sandbox-code]" to `+14155238886` from your phone
-5. Add verified phone numbers in E.164 format (+917483588380)
+5. Add verified phone numbers in E.164 format (+918630446901)
 
 ### Groq API (Required for transcription)
 1. Sign up at [https://console.groq.com/](https://console.groq.com/)
@@ -238,7 +238,7 @@ ETA: 5 min
 2. **Add Verified Numbers**
    - In Twilio Console → Phone Numbers → Verified Caller IDs
    - Add driver phone numbers in E.164 format
-   - Current verified: +917483588380, +918618243016
+   - Current verified: +918630446901, +919876512345
 
 3. **Configure Backend**
    ```env
@@ -257,11 +257,11 @@ ETA: 5 min
 
 | ID | Vehicle Number | Type | Driver | Phone |
 |---|---|---|---|---|
-| AMB-105 | KA-05-MN-9876 | Advanced Life Support | Amit Sharma | +917483588380 |
+| AMB-105 | KA-05-MN-9876 | Advanced Life Support | Amit Sharma | +918630446901 |
 | AMB-208 | MH-12-XY-4321 | Basic Life Support | Priya Verma | +918618243016 |
-| AMB-312 | DL-08-PQ-7890 | Advanced Life Support | Rahul Singh | +917483588380 |
+| AMB-312 | DL-08-PQ-7890 | Advanced Life Support | Rahul Singh | +918630446901 |
 | AMB-456 | UP-16-RS-2468 | Basic Life Support | Neha Gupta | +918618243016 |
-| AMB-589 | HR-26-TU-1357 | Advanced Life Support | Vikram Patel | +917483588380 |
+| AMB-589 | HR-26-TU-1357 | Advanced Life Support | Vikram Patel | +918630446901 |
 
 ## 🔧 API Endpoints
 

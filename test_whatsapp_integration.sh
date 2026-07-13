@@ -46,7 +46,7 @@ DISPATCH_RESPONSE=$(curl -s -X POST http://localhost:8000/api/dispatch/ \
     "ambulance_id": "AMB-001",
     "hospital_name": "AIIMS New Delhi",
     "hospital_address": "Ansari Nagar, New Delhi, Delhi 110029",
-    "driver_phone": "+917483588380",
+    "driver_phone": "+918630446901",
     "patient_info": "Test Integration - Emergency Dispatch",
     "eta": 5
   }')
@@ -64,7 +64,7 @@ if [ "$WHATSAPP_SENT" = "true" ]; then
     echo -e "${GREEN}✅ WhatsApp message sent successfully!${NC}"
     echo "Message SID: $MESSAGE_SID"
     echo ""
-    echo "📱 Check your phone at +917483588380 for the WhatsApp message!"
+    echo "📱 Check your phone at +918630446901 for the WhatsApp message!"
 else
     ERROR=$(echo "$DISPATCH_RESPONSE" | jq -r '.whatsapp_status.error')
     echo -e "${RED}❌ WhatsApp message failed${NC}"

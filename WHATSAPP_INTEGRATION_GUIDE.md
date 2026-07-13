@@ -64,7 +64,7 @@ ETA: 5 min
   "ambulance_id": "AMB-001",
   "hospital_name": "AIIMS New Delhi",
   "hospital_address": "Ansari Nagar, New Delhi, Delhi 110029",
-  "driver_phone": "+917483588380",
+  "driver_phone": "+918630446901",
   "patient_info": "John Doe - Heart Attack",
   "eta": 5
 }
@@ -120,7 +120,7 @@ npm start
    - Driver name and phone number
 
 ### 4. Verify WhatsApp Delivery
-Check your phone at **+917483588380** for the WhatsApp message!
+Check your phone at **+918630446901** for the WhatsApp message!
 
 ## 🔍 Troubleshooting
 
@@ -138,7 +138,7 @@ uvicorn main:app --reload
 
 **Check**:
 1. Verify `.env` file has correct Twilio credentials
-2. Verify phone number is in E.164 format (+917483588380)
+2. Verify phone number is in E.164 format (+918630446901)
 3. Check Twilio console for error messages
 4. Ensure WhatsApp Sandbox is active
 
@@ -173,8 +173,8 @@ const dispatchData = {
 ```
 
 ### Verified Phone Numbers
-- **Driver 1** (AMB-001): +917483588380
-- **Driver 2** (AMB-002): +918618243016
+- **Driver 1** (AMB-001): +918630446901
+- **Driver 2** (AMB-002): +919876123457
 
 ## 🎉 Success Indicators
 
@@ -208,7 +208,7 @@ curl -X POST http://localhost:8000/api/dispatch/ \
     "ambulance_id": "AMB-001",
     "hospital_name": "AIIMS New Delhi",
     "hospital_address": "Ansari Nagar, New Delhi",
-    "driver_phone": "+917483588380",
+    "driver_phone": "+918630446901",
     "patient_info": "Test Patient - Heart Attack",
     "eta": 5
   }'
